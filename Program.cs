@@ -4,11 +4,7 @@
 либо задать на старте выполнения алгоритма.
 При решение не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
  
- 
- 
- 
-
-РЕШЕНИЕ 1 (с использованием двух массивов)
+ РЕШЕНИЕ 1 (с использованием двух массивов)
 Console.Write("Сколько элементов Вы хотите ввести? ");
 int size = Convert.ToInt32(Console.ReadLine());
 
@@ -36,10 +32,6 @@ for (int j = 0; j < size; j++)
 Console.WriteLine();
 PrintArray(arrayFinal);
 
-
-
-
-
 РЕШЕНИЕ 2 (с использованием одного массива)
 
 Console.Write("Сколько элементов Вы хотите ввести? ");
@@ -60,9 +52,7 @@ for (int i = 0; i < size; i++)
 Console.WriteLine();
 PrintArray(arrayStrings);
 
-
 Блок вспомогательных методов
-
 void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
